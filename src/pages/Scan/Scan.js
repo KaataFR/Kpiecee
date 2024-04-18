@@ -167,7 +167,7 @@ function Scan() {
 
       // Créer une fonction pour gérer l'événement de défilement
       const handleScroll = () => {
-        // Calculer la position de défilement actuelle en pourcentage
+        // Calculer la position de défilement actuel en pourcentage
         const scrollPosition = window.scrollY / scrollHeight;
 
         // Mettre à jour la largeur de la barre de progression
