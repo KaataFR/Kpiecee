@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Kpiecee/static/css/main.b4f73e5a.css",
+    "main.js": "/Kpiecee/static/js/main.ca5dc321.js",
+    "static/js/453.0a1425dc.chunk.js": "/Kpiecee/static/js/453.0a1425dc.chunk.js",
+    "static/media/ost.mp3": "/Kpiecee/static/media/ost.f5606b555ebfc28ef30d.mp3",
+    "static/media/slide_header.jpg": "/Kpiecee/static/media/slide_header.b2b929247aefe793b6ba.jpg",
+    "static/media/LOGO-KPIECE.png": "/Kpiecee/static/media/LOGO-KPIECE.4820c767153467c4dde2.png",
+    "index.html": "/Kpiecee/index.html",
+    "main.b4f73e5a.css.map": "/Kpiecee/static/css/main.b4f73e5a.css.map",
+    "main.ca5dc321.js.map": "/Kpiecee/static/js/main.ca5dc321.js.map",
+    "453.0a1425dc.chunk.js.map": "/Kpiecee/static/js/453.0a1425dc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4f73e5a.css",
+    "static/js/main.ca5dc321.js"
+  ]
+}
