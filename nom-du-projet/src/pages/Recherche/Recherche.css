@@ -1,0 +1,58 @@
+
+
+.card-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+.card-list li {
+    display: flex;
+  }
+  
+
+
+
+
+  @media screen and (max-width: 1244px) {
+
+    .search-wrap{
+      width: 90%;
+      margin: auto;
+    }
+
+    .search-wrap h1 {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 26px;
+    }
+
+    .search-number{
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: white;
+      text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3);
+    }
+    
+    .card-list{
+      width: 100%;
+      padding: 0;
+    }
+    
+    .card-list li{
+      height: fit-content;
+    }
+
+    .card-list p{
+      left: 15px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    }

@@ -1,0 +1,143 @@
+header {
+  height: 165px;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  overflow: hidden;
+  /* Empêche le dépassement de l'image */
+  position: relative;
+  /* Assure le positionnement correct des éléments fils */
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  /* Largeur double pour couvrir toute la largeur du header */
+  height: 100%;
+  filter: brightness(10%);
+  background-image: url("../../assets/img/slide_header.jpg");
+  background-repeat: repeat-x;
+  /* Répétition horizontale de l'image */
+  animation: slideBackground 30s linear infinite;
+  /* Animation infinie */
+}
+
+@keyframes slideBackground {
+  0% {
+    transform: translateX(0);
+    /* Départ à la position initiale */
+  }
+
+  100% {
+    transform: translateX(-50%);
+    /* Déplacement complet vers la gauche */
+  }
+}
+
+header img {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  width: 350px;
+  height: 150px;
+}
+
+
+
+header form {
+  position: absolute;
+  top: 35%;
+  right: 70px;
+  display: flex;
+  align-items: center;
+  background-color: #090909;
+  padding: 5px;
+  color: white;
+  outline: 1px solid white;
+}
+
+header input {
+  font-weight: bold;
+  text-align: center;
+  width: 150px;
+
+}
+
+header input,
+header input:active,
+header input::placeholder,
+header button {
+  border: none;
+  padding: 0;
+  background-color: #090909;
+  color: white;
+}
+
+header input {
+  outline: none;
+}
+
+header button {
+  display: inherit;
+  padding: 10px;
+  box-shadow: inherit;
+  border: inherit;
+  cursor: pointer;
+}
+
+
+
+
+
+  @media screen and (max-width: 1244px) {
+    header {
+      height: 200px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      position: relative;
+      z-index: 1;
+      background-color: #000000;
+
+    }
+
+    header::before{
+      top: 10px;
+    }
+
+    header img {
+      width: 300px;
+      position: relative;
+      z-index: 2;
+      height: auto;
+    }
+
+    header form {
+      position: static;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 2;
+      outline: none;
+      background: none;
+    }
+
+    header input {
+      background-color: transparent;
+      height: 30px;
+      font-size: 15px;
+
+    }
+
+    header button{
+      background-color: transparent;
+      font-size: 15px;
+
+    }
+  }
+
+
+

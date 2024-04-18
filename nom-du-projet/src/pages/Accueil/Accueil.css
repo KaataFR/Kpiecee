@@ -1,0 +1,108 @@
+.Accueil{
+  width: 100%;
+  margin: auto;
+}
+
+.Accueil h2 {
+    position: relative;
+    font-size: 32px;
+  }
+  
+  .Accueil h2:before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    animation: lineAnimation 2s forwards;
+  }
+  
+.ScrollToTopButton{
+  display: none;
+}
+
+
+  @keyframes lineAnimation {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+
+.Accueil ul{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.Accueil li{
+    height: 520px;
+}
+
+
+.Pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Pagination button {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px;
+  margin: 0 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.Pagination button.active {
+  background-color: white;
+  color: black;
+}
+
+
+
+
+
+@media screen and (max-width: 1244px) {
+
+
+
+.Accueil{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Accueil ul{
+  width: 100%;
+  padding: 0;
+  margin: auto;
+
+}
+
+.Accueil li{
+  height: 450px;
+  width: 251px;
+  margin: auto;
+}
+
+
+div.Card.new,div.Card{
+width: auto;
+}
+
+
+
+
+
+
+
+
+}

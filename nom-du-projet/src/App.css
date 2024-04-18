@@ -1,0 +1,45 @@
+body {
+    background: #0d0d0d;
+    color: white;
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+font-family: 'Lalezar', cursive;
+}
+
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Style de la scrollbar */
+::-webkit-scrollbar {
+    width: 6px; /* Largeur de la scrollbar */
+  }
+  
+  /* Style de la poignée */
+  ::-webkit-scrollbar-thumb {
+    background-color: red; /* Couleur de la poignée */
+    border-radius: 4px; /* Bordure arrondie de la poignée */
+  }
+  
+  /* Style de la piste */
+  ::-webkit-scrollbar-track {
+    background-color: black; /* Couleur de la piste */
+  }
+  
+  
